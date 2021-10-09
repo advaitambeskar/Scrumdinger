@@ -18,6 +18,7 @@
 		9258F66C271101FE00E35EC9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9258F66B271101FE00E35EC9 /* CardView.swift */; };
 		9258F66E271106CA00E35EC9 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9258F66D271106CA00E35EC9 /* ScrumsView.swift */; };
 		9258F67027110CB500E35EC9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9258F66F27110CB500E35EC9 /* DetailView.swift */; };
+		9258F6722711166800E35EC9 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9258F6712711166800E35EC9 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9258F66B271101FE00E35EC9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9258F66D271106CA00E35EC9 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		9258F66F27110CB500E35EC9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9258F6712711166800E35EC9 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				9258F6442710FC5F00E35EC9 /* Preview Content */,
 				9258F66D271106CA00E35EC9 /* ScrumsView.swift */,
 				9258F66F27110CB500E35EC9 /* DetailView.swift */,
+				9258F6712711166800E35EC9 /* EditView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				9258F67027110CB500E35EC9 /* DetailView.swift in Sources */,
 				9258F66A2711011000E35EC9 /* DailyScrum.swift in Sources */,
 				9258F66C271101FE00E35EC9 /* CardView.swift in Sources */,
+				9258F6722711166800E35EC9 /* EditView.swift in Sources */,
 				9258F66E271106CA00E35EC9 /* ScrumsView.swift in Sources */,
 				9258F63F2710FC5D00E35EC9 /* ScrumdingerApp.swift in Sources */,
 			);
