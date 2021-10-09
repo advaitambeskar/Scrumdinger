@@ -30,12 +30,31 @@ extension DailyScrum {
             DailyScrum(title: "Design",
                        attendees: ["Cathy", "Pam", "Dwight"],
                        lengthInMinutes: 25,
-                       color: Color("Red")
+                       color: Color.red
             ),
             DailyScrum(title: "Tech",
                    attendees: ["Micheal", "Jim", "Stanley", "Phyllis"],
                    lengthInMinutes: 60,
-                   color: Color("Yello"))
+                       color: Color.yellow
+            ),
+            DailyScrum(title: "Fashion",
+                   attendees: ["Micheal", "Creed", "Kelly", "Phyllis", "Dwight"],
+                   lengthInMinutes: 45,
+                       color: Color.green
+            )
         ]
+    }
+}
+
+extension DailyScrum {
+    struct Data {
+        var title: String = ""
+        var attendees: [String] = [""]
+        var lengthInMinutes: Double = 5.0
+        var color: Color = Color.gray
+    }
+    
+    var data: Data {
+        return Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), color: color)
     }
 }
